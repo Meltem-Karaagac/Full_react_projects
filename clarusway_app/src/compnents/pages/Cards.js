@@ -12,27 +12,25 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-              {
-                  data.map((items,i)=>   <CardItem key={i}
-                  {...items}
-                />)
-              }
+            {
+              data.map((items, i) => <CardItem key={i}
+                {...items}
+              />)
+            }
           </ul>
           <ul className='cards__items'>
-          {
-                  cartItem.map((item,i)=>   <CardItem key={i}
-                  {...item}
-                />)
-              }
-         
+            {
+              cartItem.map((item, i) => <CardItem key={i}
+                {...item}
+              />)
+            }
           </ul>
           <ul className='cards__items'>
-          {
-                  fulldata.map((item,i)=>   <CardItem key={i}
-                  {...item}
-                />)
-              }
-    
+            {
+              fulldata.map((item, i) => <CardItem key={i}
+                {...item}
+              />)
+            }
           </ul>
         </div>
       </div>

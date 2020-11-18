@@ -70,7 +70,6 @@ function Footer() {
                 height="60vh"
                 style={{ borderRadius: "40px" }}
                 alt="" srcset="" />
-
             </Link>
           </div>
           <small class='website-rights'>CLARUSWAY © 2020</small>
