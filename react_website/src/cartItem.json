@@ -1,20 +1,21 @@
+  
 [
     {
         "src": "images/1.jpeg",
         "text": "Cloud computing is the on-demand delivery of IT resources over the Internet.",
-        "label": "DevOps",
+        "label": "Data Scientist",
         "path": "/services"
     },
     {
         "src": "images/2.jpg",
         "text": "Many businesses today need secure data processing and management platforms. ",
-        "label": "DevOps",
+        "label":"Data Scientist",
         "path": "/products"
     },
     {
         "src": "images/3.jpg",
         "text": "Cloud computing service providers offer reasonable solutions to these needs such as content delivery, database storage, and much more. ",
-        "label": "DevOps",
+        "label": "Data Scientist",
         "path": "/sign-up"
     }
 ]

@@ -67,9 +67,10 @@ function Footer() {
 
               <img src="/images/claruswaylogo.jpg"
                 width="20%"
-                height="60vh"
+                height="60"
                 style={{ borderRadius: "40px" }}
-                alt="" srcset="" />
+                alt="" srcset=""
+              />
             </Link>
           </div>
           <small class='website-rights'>CLARUSWAY © 2020</small>

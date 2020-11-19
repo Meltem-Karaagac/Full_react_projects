@@ -17,19 +17,11 @@
 }
 
 .services {
-  /* background-image: url("../src/images/img-2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
   color: #fff;
   font-size: 100px;
 }
 
 .products {
-  /* background-image: url("../src/images/img-8.jpg");
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat; */
   color: #fff;
   font-size: 100px;
 }
@@ -40,12 +32,19 @@
 }
 .sign-up-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sign-up {
+@media only screen and (max-width: 1024px) {
+  .sign-up-container {
+    flex-direction: column;
+  }
+}
+/* .sign-up {
   background-image: url("../src/images/design-min-1-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color:rgb(150,79,139);
+  color: #fff;
   font-size: 100px;
-}
+} */
